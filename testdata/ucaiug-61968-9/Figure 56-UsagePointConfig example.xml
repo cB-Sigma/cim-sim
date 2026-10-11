@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<m:UsagePointConfig xsi:schemaLocation="http://iec.ch/TC57/2011/UsagePointConfig# UsagePointConfig.xsd" xmlns:m="http://iec.ch/TC57/2011/UsagePointConfig#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+			<m:UsagePoint>
+				<m:isSdp>true</m:isSdp>
+				<m:ConfigurationEvents>
+					<m:createdDateTime>2011-11-09T10:58:03.616Z</m:createdDateTime>
+					<m:effectiveDateTime>2011-11-09T00:00:00.000Z</m:effectiveDateTime>
+				</m:ConfigurationEvents>
+				<m:Names>
+					<m:name>SDP1234E001001</m:name>
+					<m:NameType>
+						<m:name>PrimaryName</m:name>
+					</m:NameType>
+				</m:Names>
+				<m:UsagePointLocation>
+					<m:Names>
+						<m:name>LOC1234</m:name>
+						<m:NameType>
+							<m:name>PrimaryName</m:name>
+						</m:NameType>
+					</m:Names>
+				</m:UsagePointLocation>
+			</m:UsagePoint>
+</m:UsagePointConfig>

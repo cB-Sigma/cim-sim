@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Connect Meters by Meter Name-->
+<m:EndDeviceControls
+    xsi:schemaLocation = "http://iec.ch/TC57/2011/EndDeviceControls# EndDeviceControls.xsd"
+    xmlns:obj = "http://iec.ch/TC57/2011/EndDeviceControls#"
+    xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance">
+    <m:EndDeviceControl>
+        <m:mRID>76e7a0a3-3e33-4d21-b78f-b42227823ec7</m:mRID>
+        <m:issuerID>External System 1</m:issuerID>
+        <m:issuerTrackingID>123</m:issuerTrackingID>
+        <m:EndDeviceControlType ref = "3.31.0.18"/>
+        <m:EndDevices>
+            <m:mRID>45e7a0a3-3e99-4d17-b43f-b67221212ec0</m:mRID>
+            <m:Names>
+                <m:name>Meter 123</m:name>
+                <m:NameType>
+                    <m:name>Meter Name</m:name>
+                    <m:NameTypeAuthority>
+                        <m:name>Utility ABC</m:name>
+                    </m:NameTypeAuthority>
+                </m:NameType>
+            </m:Names>
+        </m:EndDevices>
+        <m:EndDevices>
+            <m:mRID>09e7a0a3-3e50-4d10-b40f-b40980088ec3</m:mRID>
+            <m:Names>
+                <m:name>Meter 456</m:name>
+                <m:NameType>
+                    <m:name>Meter Name</m:name>
+                    <m:NameTypeAuthority>
+                        <m:name>Utility ABC</m:name>
+                    </m:NameTypeAuthority>
+                </m:NameType>
+            </m:Names>
+        </m:EndDevices>
+        <m:primaryDeviceTiming>
+            <m:interval>
+                <m:start>2011-06-17T09:30:47.0Z</m:start>
+            </m:interval>
+        </m:primaryDeviceTiming>
+    </m:EndDeviceControl>
+</m:EndDeviceControls>

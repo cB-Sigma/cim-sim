@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mr:MeterReadings xmlns:mr = "http://iec.ch/TC57/2011/MeterReadings#">
+    <mr:MeterReading>
+        <mr:Meter>
+            <mr:Names>
+                <mr:name>63.89.98.184</mr:name>
+                <mr:NameType>
+                    <mr:description>This is an endpoint serial number</mr:description>
+                    <mr:name>EndpointID</mr:name>
+                    <mr:NameTypeAuthority>
+                        <mr:description>AssetManagementSystem</mr:description>
+                        <mr:name>com.company.assets</mr:name>
+                    </mr:NameTypeAuthority>
+                </mr:NameType>
+            </mr:Names>
+        </mr:Meter>
+        <mr:Readings>
+            <mr:timeStamp>2011-12-05T17:21:40.628Z</mr:timeStamp>
+            <mr:value>25.633</mr:value>
+            <mr:ReadingType ref = "0.0.0.1.4.1.12.0.0.0.0.0.0.0.0.3.72.0"/>
+        </mr:Readings>
+        <mr:Readings>
+            <mr:timeStamp>2011-12-05T17:21:40.628Z</mr:timeStamp>
+            <mr:value>10.0</mr:value>
+            <mr:ReadingType ref = "0.0.0.12.1.1.37.0.0.0.0.0.0.0.0.3.38.0"/>
+        </mr:Readings>
+    </mr:MeterReading>
+</mr:MeterReadings>
+

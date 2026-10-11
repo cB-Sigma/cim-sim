@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mr:GetMeterReadings
+xsi:schemaLocation="http://iec.ch/TC57/2011/GetMeterReadings#GetMeterReadings.xsd"
+        xmlns:m="http://iec.ch/TC57/2011/GetMeterReadings#"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <mr:EndDevice>
+        <mr:Names>
+            <mr:name>Meter1</mr:name>
+        </mr:Names>
+    </mr:EndDevice>
+    <mr:MeterReadings>
+        <mr:isCoincidentTrigger>true</mr:isCoincidentTrigger>
+        <mr:EndDeviceEvents>
+            <mr:EndDeviceEventType>
+                <mr:Names>
+                    <mr:name>3.31.0.68</mr:name>
+                    <!--ElectricityMeter RCDSwitch Disconnected -->
+                </mr:Names>
+            </mr:EndDeviceEventType>
+        </mr:EndDeviceEvents>
+    </mr:MeterReadings>
+    <mr:TimeSchedule>
+        <mr:scheduleInterval>
+            <mr:end>2010-12-31T23:59:59Z</mr:end>
+            <mr:start>2010-12-01T00:00:00Z</mr:start>
+        </mr:scheduleInterval>
+    </mr:TimeSchedule>
+</mr:GetMeterReadings>

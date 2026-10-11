@@ -1,0 +1,7 @@
+	<m:EndDeviceEvent>
+			<m:EndDeviceEventDetails>
+			<m:name>FirmwareVersion</m:dateTime>
+			<m:value>1.2345</m:value>
+		</m: EndDeviceEventDetails>
+	</m:EndDeviceEvent>
+

@@ -1,0 +1,31 @@
+<mr:MeterReadings
+    xsi:schemaLocation = "http://iec.ch/TC57/2011/MeterReadings#MeterReadings.xsd"
+    xmlns:mr = "http://iec.ch/TC57/2011/MeterReadings#"
+    xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance">
+    <mr:MeterReading>
+        <mr:Meter>
+            <mr:Names>
+                <mr:name>Meter_XYZ</mr:name>
+            </mr:Names>
+        </mr:Meter>
+        <mr:Readings>
+            <mr:value>0.0914159</mr:value>
+            <mr:ReadingType ref = "0.0.0.6.0.1.38.0.0.0.0.0.0.0.0.0.65.0"/>
+            <!--indicating electricitySecondaryMetered powerFactor (cosTheta)-->
+        </mr:Readings>
+    </mr:MeterReading>
+    <mr:MeterReading>
+        <mr:isCoincidentTrigger>true</mr:isCoincidentTrigger>
+        <mr:Meter>
+            <mr:Names>
+                <mr:name>Meter_ABCx1</mr:name>
+            </mr:Names>
+        </mr:Meter>
+        <mr:Readings>
+            <mr:ReadingType ref = "8.8.0.6.1.1.8.0.0.0.0.0.0.0.0.3.38.0"/>
+            <!--billingPeriod maximum indicating forward electricitySecondaryMetered demand (kW)-->
+        </mr:Readings>
+    </mr:MeterReading>
+</mr:MeterReadings>
+
+

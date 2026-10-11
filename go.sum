@@ -1,0 +1,10 @@
+github.com/cB-Sigma/cim v0.1.0 h1:9RKscezEngW9IWuz93y+T/FY7yuxYTicce0fAPVPCI4=
+github.com/cB-Sigma/cim v0.1.0/go.mod h1:52W8vNGr39BSKunpkRwmo2imr9mTlU1/u/XJiX19c6Y=
+github.com/cB-Sigma/dlms v0.2.0 h1:9uprlHQcd+TmaYPe2O+084N/JJUMr0IsrbAjPLIgqto=
+github.com/cB-Sigma/dlms v0.2.0/go.mod h1:g0N6U0Y3TRcmXEIPPqD9PulKPbybzgh1niA7E2dpbgQ=
+github.com/cB-Sigma/xsd v0.2.0 h1:pg0xXTKCGnD1Jyj9C+EjnScPkRrSvfX4snmixqqOE60=
+github.com/cB-Sigma/xsd v0.2.0/go.mod h1:eX7OJSR6arn8kZCjtRlSxhyP41YumLLx6kX2yIVRZCA=
+gopkg.in/check.v1 v0.0.0-20161208181325-20d25e280405 h1:yhCVgyC4o1eVCa2tZl7eS0r+SDo693bJlVdllGtEeKM=
+gopkg.in/check.v1 v0.0.0-20161208181325-20d25e280405/go.mod h1:Co6ibVJAznAaIkqp8huTwlJQCZ016jof/cbN4VW5Yz0=
+gopkg.in/yaml.v3 v3.0.1 h1:fxVm/GzAzEWqLHuvctI91KS9hhNmmWOoWu0XTYJS7CA=
+gopkg.in/yaml.v3 v3.0.1/go.mod h1:K4uyk7z7BCEPqu6E+C64Yfv1cQ7kz7rIZviUmN+EgEM=

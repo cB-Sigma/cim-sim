@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<m:EndDeviceControls
+    xsi:schemaLocation = "http://iec.ch/TC57/2011/EndDeviceControls# EndDeviceControls.xsd"
+    xmlns:m = "http://iec.ch/TC57/2011/EndDeviceControls#"
+    xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance">
+    <m:EndDeviceControl>
+        <m:EndDeviceControlType ref = "3.31.0.23"/>
+        <m:EndDeviceGroups>
+            <m:Names>
+                <m:name>Disconnects in Region 123, May 2011</m:name>
+                <m:NameType>
+                    <m:name>Regional Disconnect Group</m:name>
+                    <m:NameTypeAuthority>
+                        <m:name>Utility ABC</m:name>
+                    </m:NameTypeAuthority>
+                </m:NameType>
+            </m:Names>
+        </m:EndDeviceGroups>
+        <m:primaryDeviceTiming>
+            <m:interval>
+                <m:start>2001-12-17T09:30:47Z</m:start>
+            </m:interval>
+        </m:primaryDeviceTiming>
+    </m:EndDeviceControl>
+</m:EndDeviceControls>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<m:MeterConfig xsi:schemaLocation="http://iec.ch/TC57/2011/MeterConfig# MeterConfig.xsd" xmlns:m="http://iec.ch/TC57/2011/MeterConfig#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <m:Meter>
+  <m:amrSystem>CCTR</m:amrSystem>
+  <m:serialNumber>82000001</m:serialNumber>
+  <m:ConfigurationEvents>
+   <m:createdDateTime>2011-11-09T13:55:02.776Z</m:createdDateTime>
+   <m:effectiveDateTime>2011-11-09T00:00:00.000Z</m:effectiveDateTime>
+   <m:reason>AssetCreation</m:reason>
+  </m:ConfigurationEvents>
+  <m:EndDeviceInfo>
+   <m:AssetModel>
+    <m:modelNumber>F60</m:modelNumber>
+    <m:Manufacturer>
+     <m:Names>
+      <m:name>LG</m:name>
+     </m:Names>
+    </m:Manufacturer>
+   </m:AssetModel>
+  </m:EndDeviceInfo>
+  <m:Names>
+   <m:name>1234LG</m:name>
+   <m:NameType>
+    <m:name>PrimaryName</m:name>
+   </m:NameType>
+  </m:Names>
+ </m:Meter>
+</m:MeterConfig>

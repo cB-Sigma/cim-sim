@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<m:EndDeviceControls
+    xsi:schemaLocation = "http://iec.ch/TC57/2011/EndDeviceControls# EndDeviceControls.xsd"
+    xmlns:m = "http://iec.ch/TC57/2011/EndDeviceControls#"
+    xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance">
+    <m:EndDeviceControl>
+        <m:EndDeviceControlType ref = "3.31.0.23"/>
+        <m:EndDeviceGroups>
+            <m:mRID>3dc53ee5-777e-50b4-8699-a1c224f45f3d</m:mRID>
+        </m:EndDeviceGroups>
+    </m:EndDeviceControl>    
+</m:EndDeviceControls> 

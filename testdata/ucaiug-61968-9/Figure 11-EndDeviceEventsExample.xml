@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?> <end:EndDeviceEvents xmlns:end="http://iec.ch/TC57/2011/EndDeviceEvents#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<end:EndDeviceEvent>
+		<end:createdDateTime>2011-11-10T21:54:53.404+01:00</end:createdDateTime>
+		<end:issuerID>External System 1</end:issuerID>
+		<end:issuerTrackingID>123</end:issuerTrackingID>
+		<end:severity>5</end:severity>
+		<end:Assets>
+			<end:mRID>01f8b2e5-a677-4f2c-a6c0-1e79b409c55e</end:mRID>
+			<end:Names>
+				<end:name>Meter 123</end:name>
+				<end:NameType>
+					<end:name>Meter Name</end:name>
+					<end:NameTypeAuthority>
+						<end:name>Utility ABC</end:name>
+					</end:NameTypeAuthority>
+				</end:NameType>
+			</end:Names>
+		</end:Assets>
+		<end:EndDeviceEventType ref="3.12.0.257"/>
+	</end:EndDeviceEvent>
+</end:EndDeviceEvents>
+

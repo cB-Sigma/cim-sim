@@ -1,0 +1,10 @@
+	<m:EndDeviceEvent>
+		<m:EndDeviceEventDetails>
+			<m:name>InstallDate</m:dateTime>
+			<m:value>2001-12-17</m:value>
+		</m:EndDeviceEventDetails>
+		<m:EndDeviceEventDetails>
+			<m:name>ShortId</m:dateTime>
+			<m:value>1002</m:value>
+		</m:EndDeviceEventDetails>
+	</m:EndDeviceEvent>

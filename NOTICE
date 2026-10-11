@@ -1,0 +1,49 @@
+cim-sim (a simulated IEC 61968 head-end system, in Go)
+Copyright 2026 Abhinav Gautam
+
+This module is licensed under the Apache License, Version 2.0 (LICENSE).
+
+The code was written for SigmaM2M, a oneM2M platform (PROVENANCE.md). It
+contains no code from other projects. sim/sim.go comes from SigmaM2M and
+carries no per-file copyright header, the convention of the code it comes
+from; the copyright line above covers it. Files added for this module
+carry "Copyright 2026 Abhinav Gautam" and "SPDX-License-Identifier:
+Apache-2.0".
+
+Trademarks
+----------
+
+IEC is a trademark of the International Electrotechnical Commission;
+UCA and UCAIug are trademarks of the UCA International Users Group. This
+module is not made, endorsed, certified or supported by either, nor by
+the CIM Users Group, and is not affiliated with them.
+
+Third-party material
+--------------------
+
+UCAIug IEC 61968-9 3rd edition (CDV2) example messages
+Copyright 2022 UCAIug. Licensed under the Apache License, Version 2.0.
+  - testdata/ucaiug-61968-9/Figure *.xml: unmodified copies of the 16
+    example messages of the UCAIug CIM Users Group "Standards Artifacts"
+    download (UCA TF 14, Part 9, 3rd-Edition (CDV2)), used as test
+    vectors only; SHA256SUMS lists them.
+
+Standards
+---------
+
+No text of IEC 61968-100 or IEC 61968-9 is reproduced; the facts come
+through the cim module.
+
+Dependencies
+------------
+
+- github.com/cB-Sigma/cim (Copyright 2026 Abhinav Gautam, Apache-2.0;
+  see its NOTICE for the UCAIug schemas it embeds and its own
+  dependencies).
+- The Go standard library (BSD-3-Clause, Copyright The Go Authors).
+
+Test data
+---------
+
+Apart from the UCAIug examples, every mRID, meter name, reading and
+address in this module is a made-up demo value.

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<m:UsagePointLocationConfig xsi:schemaLocation="http://iec.ch/TC57/2011/UsagePointLocationConfig# UsagePointLocationConfig.xsd" xmlns:m="http://iec.ch/TC57/2011/UsagePointLocationConfig#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <m:UsagePointLocation>
+  <m:ConfigurationEvents>
+   <m:createdDateTime>2011-11-09T10:57:02.583Z</m:createdDateTime>
+   <m:effectiveDateTime>2011-11-09T00:00:00.000Z</m:effectiveDateTime>
+  </m:ConfigurationEvents>
+  <m:mainAddress>
+   <m:streetDetail>
+    <m:name>Main Street</m:name>
+    <m:number>1234</m:number>
+   </m:streetDetail>
+   <m:townDetail>
+    <m:country>US</m:country>
+    <m:name>Austin</m:name>
+    <m:stateOrProvince>TX</m:stateOrProvince>
+   </m:townDetail>
+  </m:mainAddress>
+  <m:Names>
+   <m:name>LOC1234</m:name>
+   <m:NameType>
+    <m:name>PrimaryName</m:name>
+   </m:NameType>
+  </m:Names>
+ </m:UsagePointLocation>
+</m:UsagePointLocationConfig>

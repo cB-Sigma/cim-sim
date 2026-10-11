@@ -1,0 +1,6 @@
+<m:EndDeviceEvent>
+ <m:EndDeviceEventDetails>
+  <m:name>VoltageThreshold</m:name>
+  <m:value>3</m:value>
+ </m:EndDeviceEventDetails>
+</m:EndDeviceEvent>

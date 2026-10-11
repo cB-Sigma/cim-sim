@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mr:MeterReadings
+    xsi:schemaLocation = "http://iec.ch/TC57/2011/MeterReadings#
+        MeterReadings.xsd"
+    xmlns:mr = "http://iec.ch/TC57/2011/MeterReadings#"
+    xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance">
+    <mr:MeterReading>
+        <mr:isCoincidentTrigger>true</mr:isCoincidentTrigger>
+        <mr:EndDeviceEvents>
+            <mr:createdDateTime>2010-12-17T09:30:47Z</mr:createdDateTime>
+            <mr:reason>moveOut</mr:reason>
+            <mr:EndDeviceEventType ref = "3.31.0.68"/>
+            <!--ElectricityMeter RCDSwitch Disconnected -->
+        </mr:EndDeviceEvents>
+        <mr:Meter>
+            <mr:Names>
+                <mr:name>Meter1</mr:name>
+            </mr:Names>
+        </mr:Meter>
+    </mr:MeterReading>
+    <mr:MeterReading>
+        <mr:Meter>
+            <mr:Names>
+                <mr:name>Meter1</mr:name>
+            </mr:Names>
+        </mr:Meter>
+        <mr:Readings>
+            <mr:timeStamp>2010-12-17T09:30:49Z</mr:timeStamp>
+            <mr:value>123456</mr:value>
+            <mr:ReadingType ref = "0.0.0.1.4.1.12.0.0.0.0.0.0.0.0.3.72.0"/>
+            <!--billingQuantity net electricitySecondaryMetered energy (kWh)-->
+        </mr:Readings>
+    </mr:MeterReading>
+</mr:MeterReadings>
+
